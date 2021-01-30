@@ -1,0 +1,155 @@
+body{
+  justify-content: center;
+}
+.navbar{
+  background-color: rgba(0, 173, 244);
+  position: fixed;
+  width: 100%;
+  line-height: 18px;
+}
+    .navbar .navbar-left .nav-link{
+      color: white;
+    }
+    .navbar ul{
+      margin: 0px;
+      padding: 0px;
+     list-style-type: none;
+      display: inline-flex;
+    }
+    .navbar ul li a:active{
+      text-decoration: underline;
+    }
+     .wc{
+      background-color: black;
+      height: 700px;
+      font-family: cursive;
+      padding-top: 330px;
+      color: white;
+     }
+  
+.mainpage{
+  display: inline-grid;
+  margin-top: 15%;
+ }
+.mainpage .text{
+  text-align: center;
+}
+#Login{
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+    height: 700px;
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+.about{
+  height: 700px;
+  color: black;
+   padding-top: 200px;
+    padding-bottom: 200px;
+}
+.about img{
+  border-radius: 50%;
+}
+.about h1{
+  font-family: cursive;
+}
+.about p{
+  color: black;
+}
+.login { 
+  width: 30%;
+  display: block;
+margin-left: 35%;
+background-color: rgb(120, 120, 120);
+padding: 1.8em; 
+box-sizing: border-box; 
+box-shadow: 0 45px 50px rgba(0,0,0,.8); 
+border-radius: 10px;
+justify-content: center;
+animation-name: gg;
+animation-duration: 2s;
+}
+@keyframes gg{
+  0% {
+    margin-left: 20%;
+    opacity: 0%;
+
+  }
+  100% {
+    margin-left: 35%;
+     opacity: 100%;
+  }
+}
+.login input[type="text"]:hover,input[type="password"]:hover{
+  border-bottom: 2px solid lightblue;
+}
+.login input[type="text"],input[type="password"]{ 
+width: 100%; 
+font-size: .8em; 
+color: black; 
+margin-bottom: 10px; 
+border: none; 
+border-bottom: 1px solid #fff; 
+outline: none; 
+background: transparent; 
+}
+.login h3 { 
+color: darkseagreen; 
+text-align: center; 
+}
+.login label{
+  color: skyblue;
+  font-size: 15px;
+}
+.login span{
+  color: black;
+}
+.login input[type="checkbox"]{
+  border-color: black;
+  background: transparent;
+}
+.login input[type="submit"]:hover{
+  color: skyblue;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: .1s;
+}
+.login input[type="submit"]{
+  width: 100%;
+    border: none; 
+    outline: none; 
+    color: black;  
+    padding: 6px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    font-size: 15px;  
+}
+.login button[type="button"]{
+  color: white;
+  margin-left: 90%;
+  border: none;
+  background: none;
+  font-size: 20px;
+}
+.login .showez{
+ border color: white;
+ color: black;
+}
+.login a{
+  text-decoration: none;
+  color: lightblue;
+}
+ 
+.login form{
+background: transparent;
+text-align: left;
+}
+.footer{
+  height: 200px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.footer h2{
+  font-size: 11px;
+}
