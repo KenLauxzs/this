@@ -1,5 +1,5 @@
 body{
-  justify-content: center;
+  justify-content: center;display: block;
 }
 .navbar{
   background-color: rgba(0, 173, 244);
@@ -58,9 +58,8 @@ body{
   color: black;
 }
 .login { 
-  width: 30%;
+  width: 380px;
   display: block;
-margin-left: 35%;
 background-color: rgb(120, 120, 120);
 padding: 1.8em; 
 box-sizing: border-box; 
@@ -72,12 +71,10 @@ animation-duration: 2s;
 }
 @keyframes gg{
   0% {
-    margin-left: 20%;
     opacity: 0%;
 
   }
   100% {
-    margin-left: 35%;
      opacity: 100%;
   }
 }
