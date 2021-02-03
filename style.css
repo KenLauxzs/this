@@ -101,7 +101,10 @@ text-align: center;
 .login span{
   color: white;
 }
-.login input[type="checkbox"]:checked ~ .checkmark {
+. login input[type="checkbox"]{
+  backgound: transparent;
+} 
+.login input[type="checkbox"]:checked{
   background-color: #2196F3;
 }
 .login input[type="submit"]:hover{
