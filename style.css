@@ -112,7 +112,8 @@ text-align: center;
   transition-delay: .1s;
 }
 .login input[type="submit"]{
-  width: 100%;
+    background-color: rgb(0,0,0,0.4); 
+    width: 100%;
     border: none; 
     outline: none; 
     color: black;  
@@ -128,15 +129,6 @@ text-align: center;
   background: none;
   font-size: 20px;
 }
-.login .showez{
- border color: white;
- color: black;
-}
-.login a{
-  text-decoration: none;
-  color: lightblue;
-}
- 
 .login form{
 background: transparent;
 text-align: left;
