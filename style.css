@@ -78,7 +78,7 @@ animation-duration: 2s;
   }
 }
 .login input[type="text"]:hover,input[type="password"]:hover{
-  border-bottom: 2px solid lightblue;
+  border-bottom: 3px solid lightblue;
 }
 .login input[type="text"],input[type="password"]{ 
 width: 100%; 
@@ -101,7 +101,7 @@ text-align: center;
 .login span{
   color: white;
 }
-. login input[type="checkbox"]{
+.login input[type="checkbox"]{
   backgound: transparent;
 } 
 .login input[type="checkbox"]:checked{
