@@ -99,7 +99,7 @@ text-align: center;
   font-size: 15px;
 }
 .login span{
-  color: black;
+  color: white;
 }
 .login input[type="checkbox"]:checked ~ .checkmark {
   background-color: #2196F3;
@@ -115,7 +115,7 @@ text-align: center;
     width: 100%;
     border: none; 
     outline: none; 
-    color: black;  
+    color: white;  
     padding: 6px; 
     cursor: pointer; 
     border-radius: 5px; 
