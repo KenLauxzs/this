@@ -59,7 +59,6 @@ body{
 }
 .login { 
   width: 350px;
-  display: block;
 padding: 1.8em; 
 box-sizing: border-box; 
 box-shadow: 0 45px 50px rgba(0,0,0,.8); 
