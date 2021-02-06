@@ -83,7 +83,7 @@ animation-duration: 2s;
 .login input[type="text"],input[type="password"]{ 
 width: 100%; 
 font-size: .8em; 
-color: black; 
+color: white; 
 margin-bottom: 10px; 
 border: none; 
 border-bottom: 1px solid #fff; 
