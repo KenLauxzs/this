@@ -16,7 +16,7 @@ body{
      list-style-type: none;
       display: inline-flex;
     }
-    .navbar ul li a:active:hover{
+    .navbar ul li a:active{
       text-decoration: underline;
     }
      .wc{
@@ -70,7 +70,6 @@ animation-duration: 2s;
 @keyframes gg{
   0% {
     opacity: 0%;
-
   }
   100% {
      opacity: 100%;
